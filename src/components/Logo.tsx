@@ -5,7 +5,7 @@ const Logo = () => {
       <div className="flex items-center">
         <img src={logo} alt="logo" className='h-10 w-10 rounded-full mr-3' />
         <span className="text-white text-2xl font-bold">
-          sharvin<span className="text-green-500">management</span>
+          Sharvin<span className="bg-gradient-to-r from-[#0352ca] to-[#cad91c] bg-clip-text text-transparent">Management</span>
         </span>
       </div>
     </div>

@@ -1,6 +1,8 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
 import SocialContact from './components/SocialContact';
+import ParternLogo from './components/ParternLogo';
+import GloabFeacture from './components/GloabFeacture';
 
 function App() {
   return (
@@ -8,6 +10,8 @@ function App() {
       <Header />
       <Hero />
       <SocialContact />
+      <ParternLogo />
+      <GloabFeacture />
     </div>
   );
 }

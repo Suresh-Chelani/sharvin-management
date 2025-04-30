@@ -15,8 +15,8 @@ const Navigation = () => {
           <li key={item.name}>
             <a
               href={item.path}
-              className={`text-md hover:text-pink-500 transition-colors duration-300 font-bold ${
-                item.active ? 'text-pink-500' : 'text-white'
+              className={`text-md hover:text-[#cad91c] transition-colors duration-300 font-bold ${
+                item.active ? 'text-[#cad91c]' : 'text-white'
               }`}
             >
               {item.name}
@@ -26,7 +26,7 @@ const Navigation = () => {
         <li className="mt-4 md:mt-0 md:ml-4">
           <a
             href="#contact"
-            className="px-6 py-2 rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white font-medium hover:shadow-lg transition-all duration-300"
+            className="px-6 py-2 rounded-full bg-gradient-to-r from-[#0352ca] to-[#cad91c] text-white font-medium hover:shadow-lg transition-all duration-300"
           >
             Contact us!
           </a>
