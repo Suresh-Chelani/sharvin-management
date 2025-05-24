@@ -101,8 +101,8 @@ const Testimonials: React.FC = () => {
                                 key={index}
                                 onClick={() => setActiveIndex(index)}
                                 className={`w-3 h-3 rounded-full transition-all ${activeIndex === index
-                                        ? 'bg-gradient-to-r from-[#0352ca] to-[#cad91c] w-10'
-                                        : 'bg-gray-600'
+                                    ? 'bg-gradient-to-r from-[#0352ca] to-[#cad91c] w-10'
+                                    : 'bg-gray-600'
                                     }`}
                                 aria-label={`Go to testimonial ${index + 1}`}
                             />
