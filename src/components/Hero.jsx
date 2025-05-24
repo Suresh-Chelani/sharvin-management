@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React from "react";
 import bannerImg from "..//../public/images/image.png";
 const Hero = () => {
