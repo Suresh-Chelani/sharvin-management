@@ -9,7 +9,7 @@ interface Testimonial {
     quote: string;
 }
 
-const Testimonials: React.FC = () => {
+const Testimonial: React.FC = () => {
     const testimonials: Testimonial[] = [
         {
             id: 1,
@@ -114,4 +114,4 @@ const Testimonials: React.FC = () => {
     );
 };
 
-export default Testimonials;
+export default Testimonial;

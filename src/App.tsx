@@ -5,7 +5,7 @@ import ParternLogo from './components/ParternLogo';
 import GloabFeacture from './components/GloabFeacture';
 import AdvertisingShowcase from './components/AdvertisingShowcase';
 import Services from './components/Services';
-import Testimonials from './components/testimonial';
+import Testimonial from './components/Testimonial';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 function App() {
@@ -18,7 +18,7 @@ function App() {
       <GloabFeacture />
       <AdvertisingShowcase />
       <Services />
-      <Testimonials />
+      <Testimonial />
       <Contact />
       <Footer />
     </div>
